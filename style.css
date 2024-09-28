@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(74, 14, 126);
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+#box {
+  height: 400px;
+  width: 350px;
+  background-color: rgb(254, 251, 255);
+  margin-left: 500px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+input {
+  width: 225px;
+  background: transparent;
+  border: none;
+  padding: 15px 15px;
+}
+.username {
+  background-color: #eaeaea;
+  border-radius: 7px;
+  width: 280px;
+  margin-left: 35px;
+  margin-top: 50px;
+}
+.email {
+  background-color: #eaeaea;
+  border-radius: 7px;
+  width: 280px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.password {
+  background-color: #eaeaea;
+  border-radius: 7px;
+  width: 280px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.second {
+  display: flex;
+  margin: 15px 40px;
+  font-size: 15px;
+}
+a
+ {
+  margin-left: 5px;
+  text-decoration: none;
+}
+button {
+  padding: 9px 40px;
+  border-radius: 15px;
+  background-color: #eaeaea;
+  border: none;
+  margin-top: 20px;
+  background-color: rgb(123, 135, 217);
+  color: white;
+}
+.signup {
+  margin-left: 40px;
+}
+.signin {
+  margin-left: 20px;
+
+}
